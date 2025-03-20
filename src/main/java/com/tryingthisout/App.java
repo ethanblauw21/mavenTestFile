@@ -11,6 +11,7 @@ public class App
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         System.out.println(EvenOrOdd.evenOrOdd(sc.nextInt()));
+        
         sc.close();
     }
 }
